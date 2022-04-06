@@ -1,0 +1,27 @@
+.container{
+    background-color: rgba(4, 14, 46, 0.877);
+    
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 25%;
+    
+}
+ul {
+    position: sticky;
+    top: 0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 1%;
+    margin: 1%;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li:hover {
+    background-color: rgba(253, 251, 251, 0.24);
+  }

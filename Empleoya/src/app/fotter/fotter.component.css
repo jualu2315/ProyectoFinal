@@ -1,0 +1,31 @@
+.container{
+    margin-top: 0,7%;
+    padding: 3%;
+    background-color: rgba(34, 36, 41, 0.877);
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 50%;  
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    font-size: xx-large;
+}
+.direccion{
+    color: #fff;
+    text-align: center;
+}
+.container2{
+    background-color: rgba(235, 231, 226, 0.76);
+}
+.container2 img{
+    width: 2%;
+}
+.contactenos{
+    text-align: right;
+}
