@@ -31,3 +31,8 @@ a{
     display: block;
     margin: auto;
 }
+@media screen and (max-width: 640px) { 
+    .column {
+       width: 50%;
+   }
+}

@@ -15,45 +15,47 @@
         </div>
         <div class="from-col">
             <div class="row">
-                <input type="text" class="form-control" placeholder="Nombre del candidato">
+                <input type="text" class="form-control" id="nombredelcandidato" placeholder="Nombre del candidato">
             </div>
             <div class="row">
-                <input type="number" class="form-control" placeholder="Identificación">
+                <input type="number" class="form-control" id="identificacion" placeholder="Identificación">
             </div>
             <div class="row">
-                <input type="text" class="form-control" placeholder="Profesión">
+                <input type="text" class="form-control" id="profesion" placeholder="Profesión">
             </div>
             <div class="row">
-                <input type="number" class="form-control" placeholder="Edad">
+                <input type="number" class="form-control" id="edad" placeholder="Edad">
             </div>
             <div class="row">
-                <input type="tel" class="form-control" placeholder="Teléfono">
+                <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
             </div>
             <div class="row">
-                <input type="email" class="form-control" placeholder="Correo">
+                <input type="email" class="form-control" id="correo" placeholder="Correo">
             </div>
             <div class="row">
-                <h2>Perfil detallado del candidato</h2>
-                <input type="text" class="form-control" placeholder="Perfil detallado del candidato">
+                <h3>Perfil detallado del candidato</h3>
+                <textarea type="text" class="form-control" id="perfildetalladodelcandidato" placeholder="Perfil detallado del candidato"></textarea>
             </div>
             <div class="row">
-                <h2>Aspiración salarial</h2>
-                <input type="number" class="form-control" placeholder="COP $ 1.000.000">
+                <h3>Aspiración salarial</h3>
+                <input type="number" class="form-control" id="aspiracionsalarial" placeholder="COP $ 1.000.000">
             </div>
             <div class="row">
-                <h2>Experiencia laboral</h2>
-                <input type="text" class="form-control" placeholder="Experiencia laboral">
+                <h3>Experiencia laboral</h3>
+                <textarea type="text" class="form-control" id="experiencialaboral" placeholder="Experiencia laboral"></textarea>
             </div>
             <div class="row">
-                <h2>Nivel educativo</h2>
-                <input type="text" class="form-control" placeholder="Nivel educativo">
+                <h3>Nivel educativo</h3>
+                <textarea type="text" class="form-control" id="niveleducativo" placeholder="Nivel educativo"></textarea>
             </div>
             <div class="row">
-                <h2>Referencias</h2>
-                <input type="text" class="form-control" placeholder="Referencias">
+                <h3>Referencias</h3>
+                <textarea type="text" class="form-control" id="referencias" placeholder="Referencias"></textarea>
             </div>
-            <div class="row">
-                <input class="envio" type="submit" value="Guardar">
+            <div><br></div>
+            <div class="row pref">
+                    <a href="../server/post.php" class="btn btn-success pull-right">Enviar</a>
+                    <a href="../server/update.php" class="btn btn-warning pull-right">Actualizar</a>
             </div>
         </div>
     </div>
