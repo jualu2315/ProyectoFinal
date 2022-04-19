@@ -10,6 +10,7 @@ import { OfferComponent } from './offer/offer.component';
 import { EnrollComponent } from './enroll/enroll.component';
 import { WeComponent } from './we/we.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PostularComponent } from './postular/postular.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FotterComponent,
     OfferComponent,
     EnrollComponent,
-    WeComponent
+    WeComponent,
+    PostularComponent
   ],
   imports: [
     BrowserModule,

@@ -14,3 +14,11 @@ h1{
 img{
     width: 50%;
 }
+
+@media (min-width:768px){
+    
+    .col{    
+        width: 100%;
+    }
+    
+  }

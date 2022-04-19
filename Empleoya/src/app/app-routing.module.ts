@@ -6,6 +6,7 @@ import { FotterComponent } from './fotter/fotter.component';
 import { HomeComponent } from './home/home.component';
 import { OfferComponent } from './offer/offer.component';
 import { WeComponent } from './we/we.component';
+import { PostularComponent } from './postular/postular.component'; 
 
 const routes: Routes = [
 
@@ -15,7 +16,7 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'Ofertas', component: OfferComponent},
   {path: 'Nosotros', component: WeComponent},
-
+  {path: 'Postular', component: PostularComponent},
 ];
 
 @NgModule({
